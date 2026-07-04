@@ -110,7 +110,6 @@ def main():
     for name, func in log_mapping.items():
         logs[name] = remove_personal_data(func())
 
-
     save_logs(logs)
 
 if __name__ == "__main__":
